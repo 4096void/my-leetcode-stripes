@@ -1,5 +1,5 @@
 const assert = require('assert');
-const two = require('../2');
+const _2 = require('../2');
 
 // 5
 const five = {
@@ -18,7 +18,7 @@ const ten = {
 describe('https://leetcode.com/problems/add-two-numbers/', function () {
   describe('#addTwoNumbers', function () {
     it('should return 0 -> 1 when addTwoNumbers(5, 5)', function () {
-      assert.deepEqual(two.addTwoNumbers(five, five), ten);
+      assert.deepEqual(_2.addTwoNumbers(five, five), ten);
     });
   });
 });
