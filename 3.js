@@ -12,8 +12,8 @@ var lengthOfLongestSubstring = function(s) {
     let chars = subs.split('');
     let j = 0;
 
-    while (temp.indexOf(chars[j]) === -1 &&
-      j < chars.length) {
+    while (temp.indexOf(chars[j]) === -1
+      && j < chars.length) {
       temp.push(chars[j]);
       j += 1;
     }
