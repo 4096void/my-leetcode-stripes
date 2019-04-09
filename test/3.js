@@ -13,7 +13,7 @@ const cases = {
   },
 };
 
-describe('https://leetcode.com/problems/longest-substring-without-repeating-characters/', function () {
+describe('#3 https://leetcode.com/problems/longest-substring-without-repeating-characters/', function () {
   describe('#lengthOfLongestSubstring', function () {
     it('should return 6 when lengthOfLongestSubstring(\'asjrgapa\')', function () {
       assert.equal(_3.lengthOfLongestSubstring(cases['asjrgapa'].i), cases['asjrgapa'].o);

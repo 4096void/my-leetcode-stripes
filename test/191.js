@@ -16,7 +16,7 @@ const cases = {
   },
 };
 
-describe('https://leetcode.com/problems/number-of-1-bits/', function () {
+describe('#191 https://leetcode.com/problems/number-of-1-bits/', function () {
   describe('#hammingWeight', function () {
     it('should return 3 when hammingWeight(00000000000000000000000000001011)', function () {
       assert.equal(_191.hammingWeight(cases._1.i), cases._1.o);
@@ -26,6 +26,6 @@ describe('https://leetcode.com/problems/number-of-1-bits/', function () {
     });
     it('should return 31 when hammingWeight(11111111111111111111111111111101)', function () {
       assert.equal(_191.hammingWeight(cases._3.i), cases._3.o);
-    });    
+    });
   });
 });
