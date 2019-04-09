@@ -13,10 +13,14 @@ cat << EOF
 const assert = require('assert');
 const _$PROBLEM_ORDER_NUM = require('../$PROBLEM_ORDER_NUM');
 
+const cases = [];
+
 describe('#$PROBLEM_ORDER_NUM $PROBLEM_URL', function () {
-  describe('$FUNCTION_NAME', function () {
-    it('should just works', function () {
-      assert.equal(true, true);
+  describe('#$FUNCTION_NAME', function () {
+    cases.forEach(function (c) {
+      it('should works', function () {
+        assert.deepEqual(_15.threeSum(c.i), c.o);
+      });
     });
   });
 });
