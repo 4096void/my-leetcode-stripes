@@ -19,7 +19,7 @@ describe('#$PROBLEM_ORDER_NUM $PROBLEM_URL', function () {
   describe('#$FUNCTION_NAME', function () {
     cases.forEach(function (c) {
       it('should works', function () {
-        assert.deepEqual(_15.threeSum(c.i), c.o);
+        assert.deepEqual(_$PROBLEM_ORDER_NUM.threeSum(c.i), c.o);
       });
     });
   });
