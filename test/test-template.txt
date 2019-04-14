@@ -1,0 +1,14 @@
+const assert = require('assert');
+const _{{number}} = require('../{{number}}');
+
+const cases = [];
+
+describe('#{{number}} {{url}}', function () {
+  describe('#{{name}}', function () {
+    cases.forEach(function (c) {
+      it('should works', function () {
+        assert.deepEqual(_{{number}}.threeSum(c.i), c.o);
+      });
+    });
+  });
+});

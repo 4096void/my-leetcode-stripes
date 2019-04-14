@@ -5,10 +5,12 @@
   "main": "1.js",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "plop": "^2.3.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "new": "./node_modules/.bin/plop"
   },
   "keywords": [
     "leetcode"
